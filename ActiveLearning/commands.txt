@@ -1,0 +1,1 @@
+find . -type f | shuf -n 905 | xargs -I {} cp {} ../init_population/
